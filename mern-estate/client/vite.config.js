@@ -10,6 +10,7 @@ export default defineConfig({
         // target: 'http://localhost:3000',
         target: 'https://rentnest-xhq8.onrender.com/',
         secure: true,
+        changeOrigin: true,
       },
     },
   },
