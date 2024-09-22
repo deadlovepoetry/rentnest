@@ -23,7 +23,7 @@ export default function Header() {
     }
   }, []); // Empty dependency array means the effect runs only once after mount // Dependency array includes the callback function
   return (
-    <header className='bg-slate-200 shadow-md'>
+    <header className='bg-amber-00 shadow-md'>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
           <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
@@ -48,12 +48,12 @@ export default function Header() {
         </form>
         <ul className='flex gap-4'>
           <Link to='/'>
-            <li className='hidden sm:inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 shadow-lg'>
+            <li className='hidden sm:inline-block bg-cyan-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 shadow-lg'>
               Home
             </li>
           </Link>
           <Link to='/about'>
-            <li className='hidden sm:inline-block bg-blue-500 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 shadow-lg'>
+            <li className='hidden sm:inline-block bg-cyan-700 text-white font-bold py-2 px-4 rounded-full transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 shadow-lg'>
               About
             </li>
           </Link>

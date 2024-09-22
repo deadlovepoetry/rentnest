@@ -14,35 +14,35 @@ export default function About() {
       </div>
 
       {/* Title */}
-      <h1 className='text-4xl font-extrabold mb-6 text-amber-700'>
+      <h1 className='text-4xl font-extrabold mb-6 text-customBlue'>
         About RENTNEST
       </h1>
 
       {/* About Text */}
-      <p className="mb-6 text-lg text-slate-700 leading-relaxed font-sans">
+      <p className="mb-6 text-lg text-slate-700 leading-relaxed font-serif">
     Sahand Estate is a leading real estate agency specializing in helping clients buy, sell, and rent properties in the most desirable neighborhoods. Our team is dedicated to providing exceptional service.
 </p>
 
       {/* Our Mission Section with Icons */}
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8'>
         <div>
-          <h2 className='text-2xl font-bold text-amber-900 mb-4'>Our Mission</h2>
+          <h2 className='text-2xl font-bold text-cyan-700 mb-4'>Our Mission</h2>
           <ul className='space-y-4'>
             <li className='flex items-start'>
               <FaHandHoldingUsd className='text-blue-600 text-2xl mr-4' />
-              <span className='text-slate-700 text-lg leading-relaxed'>
+              <span className='text-slate-700 text-lg leading-relaxed font-mono'>
                 Expert advice for achieving real estate goals.
               </span>
             </li>
             <li className='flex items-start'>
               <FaUsers className='text-blue-600 text-2xl mr-4' />
-              <span className='text-slate-700 text-lg leading-relaxed'>
+              <span className='text-slate-700 text-lg leading-relaxed font-mono'>
                 Personalized services tailored to your needs.
               </span>
             </li>
             <li className='flex items-start'>
               <FaChartLine className='text-blue-600 text-2xl mr-4' />
-              <span className='text-slate-700 text-lg leading-relaxed'>
+              <span className='text-slate-700 text-lg leading-relaxed font-mono'>
                 In-depth understanding of the local market.
               </span>
             </li>
